@@ -203,7 +203,7 @@ successfully scales to the web-scale graph ogbn-papers100M, yielding
 orders-of-magnitude inference acceleration over peer Transformers on
 medium-sized graphs, and demonstrates competitiveness with limited labeled
 data.",http://arxiv.org/pdf/2409.09007v1,http://arxiv.org/abs/2409.09007v1
-Model-independent variable selection via the rule-based variable priorit,"While achieving high prediction accuracy is a fundamental goal in machine
+Model-independent variable selection via the rule-based variable priority,"While achieving high prediction accuracy is a fundamental goal in machine
 learning, an equally important task is finding a small number of features with
 high explanatory power. One popular selection technique is permutation
 importance, which assesses a variable's impact by measuring the change in
@@ -219,7 +219,7 @@ and survival. We investigate the asymptotic properties of VarPro and show,
 among other things, that VarPro has a consistent filtering property for noise
 variables. Empirical studies using synthetic and real-world data show the
 method achieves a balanced performance and compares favorably to many
-state-of-the-art procedures currently used for variable selection.",http://arxiv.org/pdf/2409.09003v1,http://arxiv.org/abs/2409.09003v1
+state-of-the-art procedures currently used for variable selection.",http://arxiv.org/pdf/2409.09003v2,http://arxiv.org/abs/2409.09003v2
 "E2MoCase: A Dataset for Emotional, Event and Moral Observations in News Articles on High-impact Legal Cases","The way media reports on legal cases can significantly shape public opinion,
 often embedding subtle biases that influence societal views on justice and
 morality. Analyzing these biases requires a holistic approach that captures the
