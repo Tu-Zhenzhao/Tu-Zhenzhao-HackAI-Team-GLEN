@@ -1,0 +1,1 @@
+{"schema":"v1","records":[{"type":"ENVIRONMENT","operation":"CREATED","data":[{"data":"Added packages through pip package manager: numpy, arxiv","mime":"text/plain"}],"important":null},{"type":"PROJECT","operation":"UPDATED","data":[{"data":"Updated Shared Memory to '24576MB'","mime":"text/plain"}],"important":null}]}
