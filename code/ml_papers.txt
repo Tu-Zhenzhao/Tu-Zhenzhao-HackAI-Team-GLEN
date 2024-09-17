@@ -1,0 +1,327 @@
+title,summary,pdf_url,arxiv_link
+"Agents in Software Engineering: Survey, Landscape, and Vision","In recent years, Large Language Models (LLMs) have achieved remarkable
+success and have been widely used in various downstream tasks, especially in
+the tasks of the software engineering (SE) field. We find that many studies
+combining LLMs with SE have employed the concept of agents either explicitly or
+implicitly. However, there is a lack of an in-depth survey to sort out the
+development context of existing works, analyze how existing works combine the
+LLM-based agent technologies to optimize various tasks, and clarify the
+framework of LLM-based agents in SE. In this paper, we conduct the first survey
+of the studies on combining LLM-based agents with SE and present a framework of
+LLM-based agents in SE which includes three key modules: perception, memory,
+and action. We also summarize the current challenges in combining the two
+fields and propose future opportunities in response to existing challenges. We
+maintain a GitHub repository of the related papers at:
+https://github.com/DeepSoftwareAnalytics/Awesome-Agent4SE.",http://arxiv.org/pdf/2409.09030v1,http://arxiv.org/abs/2409.09030v1
+Learning Theory Informed Priors for Bayesian Inference: A Case Study with Early Dark Energy,"Cosmological models are often motivated and formulated in the language of
+particle physics, using quantities such as the axion decay constant, but tested
+against data using ostensibly physical quantities, such as energy density
+ratios, assuming uniform priors on the latter. This approach neglects priors on
+the model from fundamental theory, including from particle physics and string
+theory, such as the preference for sub-Planckian axion decay constants. We
+introduce a novel approach to learning theory-informed priors for Bayesian
+inference using normalizing flows (NF), a flexible generative machine learning
+technique that generates priors on model parameters when analytic expressions
+are unavailable or difficult to compute. As a test case, we focus on early dark
+energy (EDE), a model designed to address the Hubble tension. Rather than using
+uniform priors on the $\textit{phenomenological}$ EDE parameters $f_{\rm EDE}$
+and $z_c$, we train a NF on EDE cosmologies informed by theory expectations for
+axion masses and decay constants. Our method recovers known constraints in this
+representation while being $\sim 300,000$ times more efficient in terms of
+total CPU compute time. Applying our NF to $\textit{Planck}$ and BOSS data, we
+obtain the first theory-informed constraints on EDE, finding $f_{\rm EDE}
+\lesssim 0.02$ at $95\%$ confidence with an $H_0$ consistent with
+$\textit{Planck}$, but in $\sim 6\sigma$ tension with SH0ES. This yields the
+strongest constraints on EDE to date, additionally challenging its role in
+resolving the Hubble tension.",http://arxiv.org/pdf/2409.09029v1,http://arxiv.org/abs/2409.09029v1
+Towards Leveraging Contrastively Pretrained Neural Audio Embeddings for Recommender Tasks,"Music recommender systems frequently utilize network-based models to capture
+relationships between music pieces, artists, and users. Although these
+relationships provide valuable insights for predictions, new music pieces or
+artists often face the cold-start problem due to insufficient initial
+information. To address this, one can extract content-based information
+directly from the music to enhance collaborative-filtering-based methods. While
+previous approaches have relied on hand-crafted audio features for this
+purpose, we explore the use of contrastively pretrained neural audio embedding
+models, which offer a richer and more nuanced representation of music. Our
+experiments demonstrate that neural embeddings, particularly those generated
+with the Contrastive Language-Audio Pretraining (CLAP) model, present a
+promising approach to enhancing music recommendation tasks within graph-based
+frameworks.",http://arxiv.org/pdf/2409.09026v1,http://arxiv.org/abs/2409.09026v1
+INN-PAR: Invertible Neural Network for PPG to ABP Reconstruction,"Non-invasive and continuous blood pressure (BP) monitoring is essential for
+the early prevention of many cardiovascular diseases. Estimating arterial blood
+pressure (ABP) from photoplethysmography (PPG) has emerged as a promising
+solution. However, existing deep learning approaches for PPG-to-ABP
+reconstruction (PAR) encounter certain information loss, impacting the
+precision of the reconstructed signal. To overcome this limitation, we
+introduce an invertible neural network for PPG to ABP reconstruction (INN-PAR),
+which employs a series of invertible blocks to jointly learn the mapping
+between PPG and its gradient with the ABP signal and its gradient. INN-PAR
+efficiently captures both forward and inverse mappings simultaneously, thereby
+preventing information loss. By integrating signal gradients into the learning
+process, INN-PAR enhances the network's ability to capture essential
+high-frequency details, leading to more accurate signal reconstruction.
+Moreover, we propose a multi-scale convolution module (MSCM) within the
+invertible block, enabling the model to learn features across multiple scales
+effectively. We have experimented on two benchmark datasets, which show that
+INN-PAR significantly outperforms the state-of-the-art methods in both waveform
+reconstruction and BP measurement accuracy.",http://arxiv.org/pdf/2409.09021v1,http://arxiv.org/abs/2409.09021v1
+An Efficient and Streaming Audio Visual Active Speaker Detection System,"This paper delves into the challenging task of Active Speaker Detection
+(ASD), where the system needs to determine in real-time whether a person is
+speaking or not in a series of video frames. While previous works have made
+significant strides in improving network architectures and learning effective
+representations for ASD, a critical gap exists in the exploration of real-time
+system deployment. Existing models often suffer from high latency and memory
+usage, rendering them impractical for immediate applications. To bridge this
+gap, we present two scenarios that address the key challenges posed by
+real-time constraints. First, we introduce a method to limit the number of
+future context frames utilized by the ASD model. By doing so, we alleviate the
+need for processing the entire sequence of future frames before a decision is
+made, significantly reducing latency. Second, we propose a more stringent
+constraint that limits the total number of past frames the model can access
+during inference. This tackles the persistent memory issues associated with
+running streaming ASD systems. Beyond these theoretical frameworks, we conduct
+extensive experiments to validate our approach. Our results demonstrate that
+constrained transformer models can achieve performance comparable to or even
+better than state-of-the-art recurrent models, such as uni-directional GRUs,
+with a significantly reduced number of context frames. Moreover, we shed light
+on the temporal memory requirements of ASD systems, revealing that larger past
+context has a more profound impact on accuracy than future context. When
+profiling on a CPU we find that our efficient architecture is memory bound by
+the amount of past context it can use and that the compute cost is negligible
+as compared to the memory cost.",http://arxiv.org/pdf/2409.09018v1,http://arxiv.org/abs/2409.09018v1
+Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation,"Despite significant progress in robotics and embodied AI in recent years,
+deploying robots for long-horizon tasks remains a great challenge. Majority of
+prior arts adhere to an open-loop philosophy and lack real-time feedback,
+leading to error accumulation and undesirable robustness. A handful of
+approaches have endeavored to establish feedback mechanisms leveraging
+pixel-level differences or pre-trained visual representations, yet their
+efficacy and adaptability have been found to be constrained. Inspired by
+classic closed-loop control systems, we propose CLOVER, a closed-loop
+visuomotor control framework that incorporates feedback mechanisms to improve
+adaptive robotic control. CLOVER consists of a text-conditioned video diffusion
+model for generating visual plans as reference inputs, a measurable embedding
+space for accurate error quantification, and a feedback-driven controller that
+refines actions from feedback and initiates replans as needed. Our framework
+exhibits notable advancement in real-world robotic tasks and achieves
+state-of-the-art on CALVIN benchmark, improving by 8% over previous open-loop
+counterparts. Code and checkpoints are maintained at
+https://github.com/OpenDriveLab/CLOVER.",http://arxiv.org/pdf/2409.09016v1,http://arxiv.org/abs/2409.09016v1
+AI-LieDar: Examine the Trade-off Between Utility and Truthfulness in LLM Agents,"To be safely and successfully deployed, LLMs must simultaneously satisfy
+truthfulness and utility goals. Yet, often these two goals compete (e.g., an AI
+agent assisting a used car salesman selling a car with flaws), partly due to
+ambiguous or misleading user instructions. We propose AI-LieDar, a framework to
+study how LLM-based agents navigate scenarios with utility-truthfulness
+conflicts in a multi-turn interactive setting. We design a set of realistic
+scenarios where language agents are instructed to achieve goals that are in
+conflict with being truthful during a multi-turn conversation with simulated
+human agents. To evaluate the truthfulness at large scale, we develop a
+truthfulness detector inspired by psychological literature to assess the
+agents' responses. Our experiment demonstrates that all models are truthful
+less than 50% of the time, although truthfulness and goal achievement (utility)
+rates vary across models. We further test the steerability of LLMs towards
+truthfulness, finding that models follow malicious instructions to deceive, and
+even truth-steered models can still lie. These findings reveal the complex
+nature of truthfulness in LLMs and underscore the importance of further
+research to ensure the safe and reliable deployment of LLMs and AI agents.",http://arxiv.org/pdf/2409.09013v1,http://arxiv.org/abs/2409.09013v1
+VAE Explainer: Supplement Learning Variational Autoencoders with Interactive Visualization,"Variational Autoencoders are widespread in Machine Learning, but are
+typically explained with dense math notation or static code examples. This
+paper presents VAE Explainer, an interactive Variational Autoencoder running in
+the browser to supplement existing static documentation (e.g., Keras Code
+Examples). VAE Explainer adds interactions to the VAE summary with interactive
+model inputs, latent space, and output. VAE Explainer connects the high-level
+understanding with the implementation: annotated code and a live computational
+graph. The VAE Explainer interactive visualization is live at
+https://xnought.github.io/vae-explainer and the code is open source at
+https://github.com/xnought/vae-explainer.",http://arxiv.org/pdf/2409.09011v1,http://arxiv.org/abs/2409.09011v1
+Contri(e)ve: Context + Retrieve for Scholarly Question Answering,"Scholarly communication is a rapid growing field containing a wealth of
+knowledge. However, due to its unstructured and document format, it is
+challenging to extract useful information from them through conventional
+document retrieval methods. Scholarly knowledge graphs solve this problem, by
+representing the documents in a semantic network, providing, hidden insights,
+summaries and ease of accessibility through queries. Naturally, question
+answering for scholarly graphs expands the accessibility to a wider audience.
+But some of the knowledge in this domain is still presented as unstructured
+text, thus requiring a hybrid solution for question answering systems. In this
+paper, we present a two step solution using open source Large Language
+Model(LLM): Llama3.1 for Scholarly-QALD dataset. Firstly, we extract the
+context pertaining to the question from different structured and unstructured
+data sources: DBLP, SemOpenAlex knowledge graphs and Wikipedia text. Secondly,
+we implement prompt engineering to improve the information retrieval
+performance of the LLM. Our approach achieved an F1 score of 40% and also
+observed some anomalous responses from the LLM, that are discussed in the final
+part of the paper.",http://arxiv.org/pdf/2409.09010v1,http://arxiv.org/abs/2409.09010v1
+Optimizing Rare Word Accuracy in Direct Speech Translation with a Retrieval-and-Demonstration Approach,"Direct speech translation (ST) models often struggle with rare words.
+Incorrect translation of these words can have severe consequences, impacting
+translation quality and user trust. While rare word translation is inherently
+challenging for neural models due to sparse learning signals, real-world
+scenarios often allow access to translations of past recordings on similar
+topics. To leverage these valuable resources, we propose a
+retrieval-and-demonstration approach to enhance rare word translation accuracy
+in direct ST models. First, we adapt existing ST models to incorporate
+retrieved examples for rare word translation, which allows the model to benefit
+from prepended examples, similar to in-context learning. We then develop a
+cross-modal (speech-to-speech, speech-to-text, text-to-text) retriever to
+locate suitable examples. We demonstrate that standard ST models can be
+effectively adapted to leverage examples for rare word translation, improving
+rare word translation accuracy over the baseline by 17.6% with gold examples
+and 8.5% with retrieved examples. Moreover, our speech-to-speech retrieval
+approach outperforms other modalities and exhibits higher robustness to unseen
+speakers. Our code is publicly available
+(https://github.com/SiqiLii/Retrieve-and-Demonstration-ST).",http://arxiv.org/pdf/2409.09009v1,http://arxiv.org/abs/2409.09009v1
+Chiral dark matter and radiative neutrino masses from gauged U(1) symmetry,"We propose a class of dark matter models based on a chiral $U(1)$ gauge
+symmetry acting on a dark sector. The chiral $U(1)$ protects the masses of the
+dark sector fermions, and also guarantees the stability of the dark matter
+particle by virtue of an unbroken discrete $\mathcal{Z}_N$ gauge symmetry. We
+identify 38 such $U(1)$ models which are descendants of a chiral $SU(3) \times
+SU(2)$ gauge symmetry, consisting of a minimal set of fermions with simple
+$U(1)$ charge assignments. We show how these models can also be utilized to
+generate small Majorana neutrino masses radiatively via the scotogenic
+mechanism with the dark sector particles circulating inside loop diagrams. We
+further explore the phenomenology of the simplest model in this class, which
+admits a Majorana fermion, Dirac fermion or a scalar field to be the dark
+matter candidate, and show the consistency of various scenarios with
+constraints from relic density and direct detection experiments.",http://arxiv.org/pdf/2409.09008v1,http://arxiv.org/abs/2409.09008v1
+SGFormer: Single-Layer Graph Transformers with Approximation-Free Linear Complexity,"Learning representations on large graphs is a long-standing challenge due to
+the inter-dependence nature. Transformers recently have shown promising
+performance on small graphs thanks to its global attention for capturing
+all-pair interactions beyond observed structures. Existing approaches tend to
+inherit the spirit of Transformers in language and vision tasks, and embrace
+complicated architectures by stacking deep attention-based propagation layers.
+In this paper, we attempt to evaluate the necessity of adopting multi-layer
+attentions in Transformers on graphs, which considerably restricts the
+efficiency. Specifically, we analyze a generic hybrid propagation layer,
+comprised of all-pair attention and graph-based propagation, and show that
+multi-layer propagation can be reduced to one-layer propagation, with the same
+capability for representation learning. It suggests a new technical path for
+building powerful and efficient Transformers on graphs, particularly through
+simplifying model architectures without sacrificing expressiveness. As
+exemplified by this work, we propose a Simplified Single-layer Graph
+Transformers (SGFormer), whose main component is a single-layer global
+attention that scales linearly w.r.t. graph sizes and requires none of any
+approximation for accommodating all-pair interactions. Empirically, SGFormer
+successfully scales to the web-scale graph ogbn-papers100M, yielding
+orders-of-magnitude inference acceleration over peer Transformers on
+medium-sized graphs, and demonstrates competitiveness with limited labeled
+data.",http://arxiv.org/pdf/2409.09007v1,http://arxiv.org/abs/2409.09007v1
+Model-independent variable selection via the rule-based variable priorit,"While achieving high prediction accuracy is a fundamental goal in machine
+learning, an equally important task is finding a small number of features with
+high explanatory power. One popular selection technique is permutation
+importance, which assesses a variable's impact by measuring the change in
+prediction error after permuting the variable. However, this can be problematic
+due to the need to create artificial data, a problem shared by other methods as
+well. Another problem is that variable selection methods can be limited by
+being model-specific. We introduce a new model-independent approach, Variable
+Priority (VarPro), which works by utilizing rules without the need to generate
+artificial data or evaluate prediction error. The method is relatively easy to
+use, requiring only the calculation of sample averages of simple statistics,
+and can be applied to many data settings, including regression, classification,
+and survival. We investigate the asymptotic properties of VarPro and show,
+among other things, that VarPro has a consistent filtering property for noise
+variables. Empirical studies using synthetic and real-world data show the
+method achieves a balanced performance and compares favorably to many
+state-of-the-art procedures currently used for variable selection.",http://arxiv.org/pdf/2409.09003v1,http://arxiv.org/abs/2409.09003v1
+"E2MoCase: A Dataset for Emotional, Event and Moral Observations in News Articles on High-impact Legal Cases","The way media reports on legal cases can significantly shape public opinion,
+often embedding subtle biases that influence societal views on justice and
+morality. Analyzing these biases requires a holistic approach that captures the
+emotional tone, moral framing, and specific events within the narratives. In
+this work we introduce E2MoCase, a novel dataset designed to facilitate the
+integrated analysis of emotions, moral values, and events within legal
+narratives and media coverage. By leveraging advanced models for emotion
+detection, moral value identification, and event extraction, E2MoCase offers a
+multi-dimensional perspective on how legal cases are portrayed in news
+articles.",http://arxiv.org/pdf/2409.09001v1,http://arxiv.org/abs/2409.09001v1
+Dark Matter Axion Search with HAYSTAC Phase II,"This Letter reports new results from the HAYSTAC experiment's search for dark
+matter axions in our galactic halo. It represents the widest search to date
+that utilizes squeezing to realize sub-quantum limited noise. The new results
+cover 1.71 $\mu$eV of newly scanned parameter space in the mass ranges
+17.28--18.44 $\mu$eV and 18.71--19.46 $\mu$eV. No statistically significant
+evidence of an axion signal was observed, excluding couplings $|g_\gamma|\geq$
+2.75$\times$$|g_{\gamma}^{\text{KSVZ}}|$ and $|g_\gamma|\geq$
+2.96$\times$$|g_{\gamma}^{\text{KSVZ}}|$ at the 90$\%$ confidence level over
+the respective region. By combining this data with previously published results
+using HAYSTAC's squeezed state receiver, a total of 2.27 $\mu$eV of parameter
+space has now been scanned between 16.96--19.46 $\mu$eV, excluding
+$|g_\gamma|\geq$ 2.86$\times$$|g_{\gamma}^{\text{KSVZ}}|$ at the 90$\%$
+confidence level. These results demonstrate the squeezed state receiver's
+ability to probe axion models over a significant mass range while achieving a
+scan rate enhancement relative to a quantum-limited experiment.",http://arxiv.org/pdf/2409.08998v1,http://arxiv.org/abs/2409.08998v1
+Biomimetic Frontend for Differentiable Audio Processing,"While models in audio and speech processing are becoming deeper and more
+end-to-end, they as a consequence need expensive training on large data, and
+are often brittle. We build on a classical model of human hearing and make it
+differentiable, so that we can combine traditional explainable biomimetic
+signal processing approaches with deep-learning frameworks. This allows us to
+arrive at an expressive and explainable model that is easily trained on modest
+amounts of data. We apply this model to audio processing tasks, including
+classification and enhancement. Results show that our differentiable model
+surpasses black-box approaches in terms of computational efficiency and
+robustness, even with little training data. We also discuss other potential
+applications.",http://arxiv.org/pdf/2409.08997v1,http://arxiv.org/abs/2409.08997v1
+Diffusion crossover from/to $q$-statistics to/from Boltzmann-Gibbs statistics in the classical inertial $α$-XY ferromagnet,"We study the angular diffusion in a classical $d-$dimensional inertial XY
+model with interactions decaying with the distance between spins as
+$r^{-\alpha}$, wiht $\alpha\geqslant 0$. After a very short-time ballistic
+regime, with $\sigma_\theta^2\sim t^2$, a super-diffusive regime, for which
+$\sigma_\theta^2\sim t^{\alpha_D}$, with $\alpha_D \simeq 1\text{.}45$ is
+observed, whose duration covers an initial quasistationary state and its
+transition to a second plateau characterized by the Boltzmann-Gibbs temperature
+$T_\text{BG}$. Long after $T_\text{BG}$ is reached, a crossover to normal
+diffusion, $\sigma_\theta^2\sim t$, is observed. We relate, for the first time,
+via the expression $\alpha_D = 2/(3 - q)$, the anomalous diffusion exponent
+$\alpha_D$ with the entropic index $q$ characterizing the time-averaged angles
+and momenta probability distribution functions (pdfs), which are given by the
+so called $q-$Gaussian distributions, $f_q(x)\propto e_q(-\beta x^2)$, where
+$e_q (u) \equiv [1 + (1 - q)u]^{\frac{1}{1 - q}}$ ($e_1(u) = \exp(u)$). For
+fixed size $N$ and large enough times, the index $q_\theta$ characterizing the
+angles pdf approaches unity, thus indicating a final relaxation to
+Boltzmann-Gibbs equilibrium. For fixed time and large enough $N$, the crossover
+occurs in the opposite sense.",http://arxiv.org/pdf/2409.08992v1,http://arxiv.org/abs/2409.08992v1
+Comparative Analysis of Pretrained Audio Representations in Music Recommender Systems,"Over the years, Music Information Retrieval (MIR) has proposed various models
+pretrained on large amounts of music data. Transfer learning showcases the
+proven effectiveness of pretrained backend models with a broad spectrum of
+downstream tasks, including auto-tagging and genre classification. However, MIR
+papers generally do not explore the efficiency of pretrained models for Music
+Recommender Systems (MRS). In addition, the Recommender Systems community tends
+to favour traditional end-to-end neural network learning over these models. Our
+research addresses this gap and evaluates the applicability of six pretrained
+backend models (MusicFM, Music2Vec, MERT, EncodecMAE, Jukebox, and MusiCNN) in
+the context of MRS. We assess their performance using three recommendation
+models: K-nearest neighbours (KNN), shallow neural network, and BERT4Rec. Our
+findings suggest that pretrained audio representations exhibit significant
+performance variability between traditional MIR tasks and MRS, indicating that
+valuable aspects of musical information captured by backend models may differ
+depending on the task. This study establishes a foundation for further
+exploration of pretrained audio representations to enhance music recommendation
+systems.",http://arxiv.org/pdf/2409.08987v1,http://arxiv.org/abs/2409.08987v1
+The connection of polaritonic chemistry with the physics of a spin glass,"Polaritonic chemistry has garnered increasing attention in recent years due
+to pioneering experimental results, which show that site- and bond-selective
+chemistry at room temperature is achievable through strong collective coupling
+to field fluctuations in optical cavities. Despite these notable experimental
+strides, the underlying theoretical mechanisms remain unclear. In this focus
+review, we highlight a fundamental theoretical link between the seemingly
+unrelated fields of polaritonic chemistry and spin glasses, exploring its
+profound implications for the theoretical framework of polaritonic chemistry.
+Specifically, we present a mapping of the dressed electronic structure problem
+under collective vibrational strong coupling to the iconic
+Sherrington-Kirkpatrick model of spin glasses. This mapping uncovers a
+collectively induced instability in the dressed electronic structure
+(spontaneous replica symmetry breaking), which could provide the long-sought
+seed for significant local chemical modifications in polaritonic chemistry.
+This mapping paves the way to incorporate, adjust and probe numerous spin glass
+concepts in polaritonic chemistry, such as frustration, aging dynamics, excess
+of thermal fluctuations, time-reversal symmetry breaking or stochastic
+resonances. Ultimately, the mapping also offers fresh insights into the
+applicability of spin glass theory beyond condensed matter systems and it
+suggests novel theoretical directions such as polarization glasses with
+explicitly time-dependent order parameter functions.",http://arxiv.org/pdf/2409.08986v1,http://arxiv.org/abs/2409.08986v1
+Clean Label Attacks against SLU Systems,"Poisoning backdoor attacks involve an adversary manipulating the training
+data to induce certain behaviors in the victim model by inserting a trigger in
+the signal at inference time. We adapted clean label backdoor (CLBD)-data
+poisoning attacks, which do not modify the training labels, on state-of-the-art
+speech recognition models that support/perform a Spoken Language Understanding
+task, achieving 99.8% attack success rate by poisoning 10% of the training
+data. We analyzed how varying the signal-strength of the poison, percent of
+samples poisoned, and choice of trigger impact the attack. We also found that
+CLBD attacks are most successful when applied to training samples that are
+inherently hard for a proxy model. Using this strategy, we achieved an attack
+success rate of 99.3% by poisoning a meager 1.5% of the training data. Finally,
+we applied two previously developed defenses against gradient-based attacks,
+and found that they attain mixed success against poisoning.",http://arxiv.org/pdf/2409.08985v1,http://arxiv.org/abs/2409.08985v1
