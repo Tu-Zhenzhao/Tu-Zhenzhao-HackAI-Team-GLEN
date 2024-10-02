@@ -6,3 +6,5 @@ peft
 trl
 ipywidgets
 bitsandbytes
+fastapi
+uvicorn
