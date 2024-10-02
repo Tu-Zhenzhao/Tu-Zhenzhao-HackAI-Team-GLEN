@@ -1,11 +1,8 @@
 # Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+Research paper query engine for use with Wolfram Language.
 
 ## Description
-Optional section to provide a more detailed overview of the project.
-
-## Getting Started
-Optional section to summarize important steps and how to use the project & apps in the project
+We used a fine-tuning model to create a AI chatbot for querying arxiv research papers. We have automatically downloaded 80 academic papers. Within a month we learned how to use AI Workbench.
 
 ## Instructions for Starting the Program and Asking Questions
 
