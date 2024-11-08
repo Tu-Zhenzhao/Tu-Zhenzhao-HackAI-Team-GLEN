@@ -10,7 +10,7 @@ app = FastAPI()
 # Load model and tokenizer once during startup
 base_model_id = "meta-llama/Meta-Llama-3.1-8B-Instruct"
 new_model_path = "/project/models/NV-llama3.1-8b-Arxiv"
-api_key = "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"
+api_key = ""
 
 special_tokens = {
     'bos_token': "<bos>",
